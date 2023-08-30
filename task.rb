@@ -19,7 +19,7 @@ class Task < Post
   end
 
   def to_strings
-    time_string = "Создано: #{@created_at.strftime("%Y.%m.%d, %H.%M.%S.txt")} \n\r \n\r "
+    time_string = "Создано: #{@created_at.strftime("%Y.%m.%d, %H.%M.%S")} \n\r"
 
     deadline = "Крайний срок: #{@due_date}"
 
